@@ -2,9 +2,9 @@
 function currentDate() {
     let date = new Date();
     let month = date.getMonth();
-    let day = date.getDate();   
+    let day = date.getDate();  
     let year = date.getFullYear();
-    console.log(`${month}/${day}/${year}`);
-    console.log(`${month}-${day}-${year}`);
+    console.log(`${month + 1}/${day}/${year}`);
+    console.log(`${month + 1}-${day}-${year}`);
 }
 currentDate()
